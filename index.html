@@ -53,80 +53,122 @@
 
     <main>
         <!-- shop part  -->
-        <div class="flex mt-16 container mx-auto lg:py-12 lg:px-28 gap-6">
+        <div class="flex flex-col lg:flex-row mt-16 container mx-auto py-3 px-2 lg:py-12 lg:px-28 gap-6">
             <div class="flex-1">
                 <!-- Kitchenware part -->
                 <div class="">
-                    <h4 class="text-2xl md:text-4xl text-[#111] font-medium mb-7">Kitchenware</h4>
+                    <h4 class="text-2xl md:text-4xl text-[#111] font-medium mb-7 ">Kitchenware</h4>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                         <!-- card -> 1  -->
-                        <div class="card shadow-xl">
+                        <div class="card shadow md:shadow-xl">
                             <figure class="">
-                                <img class="bg-[#1111130D] px-12 py-5 rounded-lg mt-5" src="/images/prod1.png" alt="Product-1" />
+                                <img class="bg-[#1111130D] px-8 lg:px-12 py-5 rounded-lg mt-5" src="/images/prod1.png"
+                                    alt="Product-1" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <!-- rating  -->
                                 <div class="rating">
                                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400"  />
-                                    <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400"
+                                        checked />
                                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
-                                  </div>
+                                </div>
                                 <h2 class="text-center text-xl font-semibold">K. Accessories</h2>
                                 <p class="text-[#11111180] text-xl font-normal"><span id="">39.00</span> TK</p>
-                                
+
                             </div>
                         </div>
                         <!-- card -> 2  -->
-                        <div class="card shadow-xl">
+                        <div class="card shadow md:shadow-xl">
                             <figure class="">
-                                <img class="bg-[#1111130D] px-12 py-5 rounded-lg mt-5" src="/images/prod2.png" alt="Product-1" />
+                                <img class="bg-[#1111130D] px:5 md:px-8 lg:px-12 py-5 rounded-lg mt-5"
+                                    src="/images/prod2.png" alt="Product-1" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <!-- rating  -->
                                 <div class="rating">
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
-                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-                                  </div>
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                </div>
                                 <h2 class="text-center text-xl font-semibold">K. Accessories</h2>
                                 <p class="text-[#11111180] text-xl font-normal"><span id="">25.00</span> TK</p>
-                                
+
                             </div>
                         </div>
                         <!-- card -> 3  -->
-                        <div class="card  shadow-xl">
+                        <div class="card shadow md:shadow-xl">
                             <figure class="">
-                                <img class="bg-[#1111130D] px-12 py-5 rounded-lg mt-5" src="/images/prod3.png" alt="Product-3" />
+                                <img class="bg-[#1111130D] px:5 md:px-8 lg:px-12 py-5 rounded-lg mt-5"
+                                    src="images/prod3.png" alt="Product-3" />
                             </figure>
                             <div class="card-body items-center text-center">
                                 <!-- rating  -->
                                 <div class="rating">
                                     <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
-                                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400"  />
-                                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" checked />
+                                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+                                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400"
+                                        checked />
                                     <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
-                                  </div>
+                                </div>
                                 <h2 class="text-center text-xl font-semibold">Home Cooker</h2>
                                 <p class="text-[#11111180] text-xl font-normal"><span id="">49.00</span> TK</p>
-                                
+
                             </div>
                         </div>
                     </div>
                 </div>
+
+                
             </div>
             <!-- add to cart part  -->
-            <div class="w-[350px]">
+            <div class="w-[300px] md:w-[350px] md:mx-auto">
                 <!-- Have coupon part -->
-                <div class="bg-white rounded-lg pr-1 pl-4 py-6">
+                <div class="bg-white rounded-lg md:pr-1 md:pl-4 py-6">
                     <h4 class="text-2xl font-medium text-[#111] mb-4">Have coupon?</h4>
-                    <input class="rounded-lg border border-[#11111126] py-4 px-2" type="text" name="" id="" placeholder="Coupon code">
-                    <button class="p-4 bg-[#E527B2]  text-white text-center text-xl font-semibold ml-[-6px]">Apply</button>
+                        <input class="rounded-l-lg border border-[#11111126] py-4 px-2 outline-0" type="text" name="" id=""
+                            placeholder="Coupon code">
+                        <button
+                            class="py-4 px-2 md:p-4 bg-[#E527B2] rounded-r-lg text-white text-center text-lg md:text-xl font-semibold ml-[-6px]">Apply</button>
+
                 </div>
+
+                <!-- dynamic add to cart part -->
+                <div class="relative">
+                    <div id="" class="mt-6 bg-white rounded-lg pr-1 pl-4 py-6 ">
+                        <div id="add-to-cart" class="pl-6 text-2xl font-medium">
+                            <ol class="list-decimal">
+                                <li>adjf</li>
+                                <li>adjf</li>
+                                <li>adjf</li>
+                                <li>adjf</li>
+                                <li>adjf</li>
+                            </ol>
+                            <hr class="w-9/12 h-2 text-[#11111126] my-6">
+                        </div>
+                        <!-- price calculate part-->
+                        <div class="text-2xl font-medium ">
+                            <h3 class="">Total Price: <span class="text-[#11111180]" id="">00.00 tk</span></h3>
+                            <h3 class="">Discount: <span class="text-[#11111180]" id="">00.00 tk</span></h3>
+                            <h3 class="">Total: <span class="text-[#11111180]" id="">00.00 tk</span></h3>
+                            <hr class="w-9/12 h-2 text-[#11111126] my-6">
+                        </div>
+                    </div>
+                    <!-- Make Purchase btn  -->
+                    <div class="flex justify-center">
+                        <div class="text-center absolute bottom-[-40px] w-9/12">
+                            <button
+                                class=" text-center p-4 bg-[#E527B2] rounded-lg text-white text-xl font-semibold w-full">Make
+                                Purchase</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </main>
