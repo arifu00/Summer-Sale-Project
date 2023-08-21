@@ -31,6 +31,7 @@ function cardClick(target) {
     }
 
 }
+
 document.getElementById("apply-btn").addEventListener("click", function () {
     const couponCodeInput = document.getElementById('coupon-code');
     const couponCode = couponCodeInput.value;
@@ -40,22 +41,26 @@ document.getElementById("apply-btn").addEventListener("click", function () {
     const totalPrice = itemTotalPrice;
 
     couponCodeInput.value = '';
-    
+
 
     if (couponCode === "SELL200") {
         discountPercentage = 20 / 100;
-        discountPrice =  (totalPrice * discountPercentage).toFixed(2);
+        discountPrice = (totalPrice * discountPercentage).toFixed(2);
         discount.innerText = discountPrice;
         grandTotalId.innerText = (totalPrice - (totalPrice * discountPercentage)).toFixed(2);
-        
 
-        
+
+
     } else {
-        
+
         alert("Coupon code is not valid.");
     }
-   
+
 });
+
+document.getElementById('go-home').addEventListener('click', function(){
+    window.document.location.href = 'index.html'
+})
 
 
 
